@@ -35,6 +35,13 @@
         body {
             font-family: 'Manrope', sans-serif;
         }
+
+        .progress-ring__circle {
+            stroke-dasharray: 400, 400;
+            /* transition: stroke-dashoffset 0.35s; */
+            transform: rotate(-20deg);
+            transform-origin: 50% 50%;
+        }
     </style>
 </head>
 
@@ -244,13 +251,142 @@
         <!-- ====================== Banner Section End =============== -->
 
         <!-- ============= Professional Hocky Club Section Start =========== -->
+        <section class="mb-10 md:mb-24">
+            <div
+                class="heading text-center space-y-4 md:space-y-6 border-dashed border-t border-b border-[#13131833] py-6 md:py-8">
+                <h2 class="text-[22px] md:text-4xl font-extrabold text-[#131318]">Professional Hockeys Club</h2>
+                <p class="text-sm font-medium text-[#13131899] w-full md:text-base md:w-[600px] mx-auto capitalize">
+                    From the heart-pounding moments of intense competition to the camaraderie that binds players and
+                    fans alike, our club is a testament to the enduring magic of hockey.
+                </p>
+            </div>
+
+
+            <!-- =============== Professional Hocky Club Progress Container ============== -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+
+                <!-- ================= Progress Item 1 =============== -->
+                <div class="text-center space-y-4">
+                    <div class="relative w-40 h-40 mx-auto">
+                        <svg class="w-full h-full flex" viewBox="0 0 100 100">
+                            <!-- Background circle -->
+                            <circle class="text-gray-200 stroke-current" stroke-width="10" cx="50" cy="50" r="40"
+                                fill="transparent"></circle>
+                            <!-- Progress circle -->
+                            <circle class="text-[#FF4240]  progress-ring__circle stroke-current" stroke-width="10"
+                                stroke-linecap="round" cx="50" cy="50" r="40" fill="transparent"
+                                stroke-dashoffset="calc(100 - (400 * 37) / 100)"></circle>
+
+                            <!-- Center text -->
+                            <text x="50" y="50" font-family="Verdana" font-size="12" text-anchor="middle"
+                                alignment-baseline="middle">87%</text>
+
+                        </svg>
+                    </div>
+
+
+                    <div class="progress__data space-y-3">
+                        <h2 class="sm:text-xl text-[#131318] font-semibold">Prayer Facility</h2>
+                        <p class="text-base font-normal text-[#13131899] capitalize">carefully crafted to provide a conducive setting for prayer and meditation</p>
+                    </div>
+
+                </div>
+                 <!-- ================= Progress Item 1 =============== -->
+
+                <!-- ================= Progress Item 2 =============== -->
+                <div class="text-center space-y-4">
+                    <div class="relative w-40 h-40 mx-auto">
+                        <svg class="w-full h-full flex" viewBox="0 0 100 100">
+                            <!-- Background circle -->
+                            <circle class="text-gray-200 stroke-current" stroke-width="10" cx="50" cy="50" r="40"
+                                fill="transparent"></circle>
+                            <!-- Progress circle -->
+                            <circle class="text-[#49D293]  progress-ring__circle stroke-current" stroke-width="10"
+                                stroke-linecap="round" cx="50" cy="50" r="40" fill="transparent"
+                                stroke-dashoffset="calc(100 - (400 * 32) / 100)"></circle>
+
+                            <!-- Center text -->
+                            <text x="50" y="50" font-family="Verdana" font-size="12" text-anchor="middle"
+                                alignment-baseline="middle">95%</text>
+
+                        </svg>
+                    </div>
+
+
+                    <div class="progress__data space-y-3">
+                        <h2 class="sm:text-xl text-[#131318] font-semibold">Experienced Coach</h2>
+                        <p class="text-base font-normal text-[#13131899] capitalize">With a proven track record and a passion for unlocking human potentia</p>
+                    </div>
+
+                </div>
+                 <!-- ================= Progress Item 2 =============== -->
+
+                <!-- ================= Progress Item 3 =============== -->
+                <div class="text-center space-y-4">
+                    <div class="relative w-40 h-40 mx-auto">
+                        <svg class="w-full h-full flex" viewBox="0 0 100 100">
+                            <!-- Background circle -->
+                            <circle class="text-gray-200 stroke-current" stroke-width="10" cx="50" cy="50" r="40"
+                                fill="transparent"></circle>
+                            <!-- Progress circle -->
+                            <circle class="text-[#FFB546]  progress-ring__circle stroke-current" stroke-width="10"
+                                stroke-linecap="round" cx="50" cy="50" r="40" fill="transparent"
+                                stroke-dashoffset="calc(100 - (400 * 35) / 100)"></circle>
+
+                            <!-- Center text -->
+                            <text x="50" y="50" font-family="Verdana" font-size="12" text-anchor="middle"
+                                alignment-baseline="middle">90%</text>
+
+                        </svg>
+                    </div>
+
+
+                    <div class="progress__data space-y-3">
+                        <h2 class="sm:text-xl text-[#131318] font-semibold">Senior Player</h2>
+                        <p class="text-base font-normal text-[#13131899] capitalize">inspiring fans of all ages to pursue their passions with determination and integrity</p>
+                    </div>
+
+                </div>
+                 <!-- ================= Progress Item 3 =============== -->
+
+                <!-- ================= Progress Item 4 =============== -->
+                <div class="text-center space-y-4">
+                    <div class="relative w-40 h-40 mx-auto">
+                        <svg class="w-full h-full flex" viewBox="0 0 100 100">
+                            <!-- Background circle -->
+                            <circle class="text-gray-200 stroke-current" stroke-width="10" cx="50" cy="50" r="40"
+                                fill="transparent"></circle>
+                            <!-- Progress circle -->
+                            <circle class="text-[#4C8DF1]  progress-ring__circle stroke-current" stroke-width="10"
+                                stroke-linecap="round" cx="50" cy="50" r="40" fill="transparent"
+                                stroke-dashoffset="calc(100 - (400 * 40) / 100)"></circle>
+
+                            <!-- Center text -->
+                            <text x="50" y="50" font-family="Verdana" font-size="12" text-anchor="middle"
+                                alignment-baseline="middle">80%</text>
+
+                        </svg>
+                    </div>
+
+
+                    <div class="progress__data space-y-3">
+                        <h2 class="sm:text-xl text-[#131318] font-semibold">Training Ground</h2>
+                        <p class="text-base font-normal text-[#13131899] capitalize">
+                            equipped with the latest in rehabilitation technology to ensure optimal physical condition
+                        </p>
+                    </div>
+
+                </div>
+                 <!-- ================= Progress Item 4 =============== -->
+            </div>
+        </section>
         <!-- ============== Professional Hocky Club Section End ============ -->
 
 
         <!-- ==================== Program Section Start ================== -->
         <section class="mb-10 md:mb-24">
             <div
-                class="heading text-center space-y-4 md:space-y-6 border-dashed border-t-2 border-b-2 border-[#13131833] py-6 md:py-8">
+                class="heading text-center space-y-4 md:space-y-6 border-dashed border-t border-b border-[#13131833] py-6 md:py-8">
                 <h2 class="text-[22px] md:text-4xl font-extrabold text-[#131318]">Program Sections</h2>
                 <p class="text-sm font-medium text-[#13131899] w-full md:text-base md:w-[600px] mx-auto capitalize">As
                     you navigate through their achievements, challenges, and triumphs, you'll gain a deeper appreciation
@@ -265,8 +401,10 @@
 
                     <div class="text-white mt-4 md:mt-1 z-10 p-4 md:p-0 space-y-5 sm:absolute sm:left-6 sm:bottom-10">
                         <h2 class="text-xl lg:text-3xl font-extrabold">Junior Program</h2>
-                        <p class="w-full text-sm md:text-base font-medium md:w-[85%] lg:w-[520px]"> Get ready to meet the legends, the game-changers, and the true heroes of the hockey world.</p>
-                        <a href="#" class="btn bg-primary-color hover:bg-primary-color border-0 text-white">Register Now!</a>
+                        <p class="w-full text-sm md:text-base font-medium md:w-[85%] lg:w-[520px]"> Get ready to meet
+                            the legends, the game-changers, and the true heroes of the hockey world.</p>
+                        <a href="#" class="btn bg-primary-color hover:bg-primary-color border-0 text-white">Register
+                            Now!</a>
                     </div>
                 </div>
                 <!-- =============== Card Item 1 =============== -->
@@ -277,8 +415,10 @@
 
                     <div class="text-white z-10 mt-4 md:mt-0 p-4 md:p-0 space-y-5 sm:absolute sm:left-6 sm:bottom-10">
                         <h2 class="text-xl lg:text-3xl font-extrabold">Teenager Program</h2>
-                        <p class="w-full text-sm md:text-base font-medium md:w-[85%] lg:w-[520px]"> Get ready to meet the legends, the game-changers, and the true heroes of the hockey world.</p>
-                        <a href="#" class="btn bg-primary-color hover:bg-primary-color border-0 text-white">Register Now!</a>
+                        <p class="w-full text-sm md:text-base font-medium md:w-[85%] lg:w-[520px]"> Get ready to meet
+                            the legends, the game-changers, and the true heroes of the hockey world.</p>
+                        <a href="#" class="btn bg-primary-color hover:bg-primary-color border-0 text-white">Register
+                            Now!</a>
                     </div>
                 </div>
                 <!-- =============== Card Item 2 =============== -->
@@ -289,8 +429,11 @@
 
                     <div class="text-white z-10 mt-5 sm:absolute sm:left-10 sm:bottom-10 space-y-5 p-4 sm:p-0">
                         <h2 class="text-xl md:text-3xl font-extrabold">Professional Program</h2>
-                        <p class="w-full text-sm md:text-base font-medium md:w-[520px]">As you navigate through their achievements, challenges, and triumphs, you'll gain a deeper appreciation for the dedication required to become a hockey hero. </p>
-                        <a href="#" class="btn bg-primary-color hover:bg-primary-color border-0 text-white">Register Now!</a>
+                        <p class="w-full text-sm md:text-base font-medium md:w-[520px]">As you navigate through their
+                            achievements, challenges, and triumphs, you'll gain a deeper appreciation for the dedication
+                            required to become a hockey hero. </p>
+                        <a href="#" class="btn bg-primary-color hover:bg-primary-color border-0 text-white">Register
+                            Now!</a>
                     </div>
                 </div>
                 <!-- =============== Card Item 3 =============== -->
